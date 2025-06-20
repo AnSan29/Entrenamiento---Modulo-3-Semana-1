@@ -31,7 +31,7 @@ footer {
 /* ------- MEDIA QUERY ------- */
 
 /* query for mobile devices */
-@media (min-width: 500px) and (max-width: 640px) {
+@media only screen and (max-width: 600px) {
   header {
     height: 10%;
     background-color: var(--main-color);

@@ -10,15 +10,8 @@ This project consists of a small web application that receives the name and age 
 
 ## Project Structure
 
-![Logo]()
-    │
-    ├── index.html
-    ├── README.md
-    └── src/
-    ├── css/
-    │ └── styles.css
-    └── js/
-    └── sistema_interactivo.js
+![Structure](./src/img/estructura.webp)
+
 
 ## Description of operation
 
@@ -36,10 +29,39 @@ Clicking the "Send" button executes a JavaScript function that:
 3. Evaluate the age entered:
     - If they are under 18, a motivational message for minors is displayed. 
     - If it is greater than or equal to 18, an adult message is displayed. 
-    - If there is an error in the age (e.g. empty or invalid field), an alert message is displayed.
+    - If there is an error in the age (e.g. empty or invalid field), an alert 
+    message is displayed.
+    - If age entered is a negative number send a message error.
 
 
-The message is dynamically displayed inside a '<span>'with the ID 'response'.
+The message is dynamically displayed inside a < span > with the ID 'response'.
+
+
+## How to run the program
+To run the program, it is necessary to have previously installed a web browser, such as chrome, moxila, brave, etc...
+
+**se debe ingresar al archivo index.html e interactuar con el formulario de la pagina.**
+
+
+
+
+##  responsive web desing
+1. media query for mobiles
+
+    ![Structure](./src/img/data-query-mobiles.webp)
+
+2. media query for tablets
+
+    ![Structure](./src/img/data-query-tablets.webp)
+
+3. media query for computers
+
+    ![Structure](./src/img/data-query-ordenador.webp)
+
+
+
+
+
 
 ##  Autor
 
