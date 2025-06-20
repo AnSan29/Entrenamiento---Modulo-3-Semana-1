@@ -16,22 +16,22 @@ boton.addEventListener("click", (e) => {
   e.preventDefault();
 
   // find value of inputs and parse if necessary
-  let user_name = userName.value;
-  let user_age = parseInt(userAge.value);
+  let userNameValue = userName.value;
+  let userAgeValue = parseInt(userAge.value);
 
   // function to find messages by age
   let message = "";
-  if (user_age < 18 && user_age > 0) {
-    message = `Hola ${user_name}, eres menor de edad. ¡Sigue aprendiendo y disfrutando del código!`;
+  if (userAgeValue < 18 && userAgeValue > 0) {
+    message = `Hi ${userNameValue}, you are a minor. Keep learning and enjoying the code!`;
     console.log(message);
-  }else if (user_age < 0){
-    message = "no se aceptan numeros negativos";
+  }else if (userAgeValue < 0){
+    message = "Negative numbers are not accepted";
     console.log(message);
-  }else if (user_age >= 18) {
-    message = `Hola ${user_name}, eres mayor de edad. ¡Prepárate para grandes oportunidades en el mundo de la programación!`;
+  }else if (userAgeValue >= 18) {
+    message = `Hi ${userNameValue}, You are of legal age. Get ready for great opportunities in the world of programming!`;
     console.log(message);
   } else {
-    message = "Error: Por favor, ingresa una edad válida en números.";
+    message = "Error: Please enter a valid age in numbers.";
     console.error(message);
     alert(message);
   }
