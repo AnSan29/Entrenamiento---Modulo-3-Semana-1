@@ -3,6 +3,7 @@
   --main-color: #12536e;
   --second-color: #121f22;
   --font-color: #f1c971;
+  --response-color: #121f2298;
 }
 
 /*reset values ​​for the entire document */
@@ -57,9 +58,9 @@ footer {
     padding: 15px;
   }
   .response {
-    background-color: var(--font-color);
+    background-color: var(--response-color);
     border-radius: 10px;
-    color: var(--second-color);
+    color: var(--font-color);
     font-size: 3em;
     width: 95%;
     margin: 0 auto;
@@ -163,9 +164,9 @@ footer {
     padding: 15px;
   }
   .response {
-    background-color: var(--font-color);
+    background-color: var(--response-color);
     border-radius: 10px;
-    color: var(--second-color);
+    color: var(--font-color);
     font-size: 3em;
     width: 95%;
     margin: 0 auto;
@@ -262,10 +263,10 @@ footer {
     margin: auto;
     height: 80%;
     width: 80%;
-    font-size: 4em;
-    background-color: var(--font-color);
+    font-size: 2em;
+    background-color: var(--response-color);
     border-radius: 10px;
-    color: var(--second-color);
+    color: var(--font-color);
     text-align: center;
     display: flex;
     justify-content: center;
