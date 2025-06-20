@@ -40,7 +40,7 @@ The message is dynamically displayed inside a < span > with the ID 'response'.
 ## How to run the program
 To run the program, it is necessary to have previously installed a web browser, such as chrome, moxila, brave, etc...
 
-**se debe ingresar al archivo index.html e interactuar con el formulario de la pagina.**
+**You must enter the index.html file and interact with the form on the page.**
 
 
 
